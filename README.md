@@ -25,3 +25,11 @@ Example:
       ]
   }
 ```
+
+Compilation:
+```
+  git clone https://github.com/zimbabwe303/domain-list-ru_direct.git
+  cd domain-list-ru_direct
+  go build
+  ./domain-list-direct
+```
