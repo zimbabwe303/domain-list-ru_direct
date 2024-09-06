@@ -2,7 +2,9 @@
 
 A basic, simplified list of Russian domains intended for use in V2Ray client config.json (direct routing rule).
 
-Example:
+Based on the domain-list-community project.
+
+Usage example in the client config.json:
 ```
   "routing": {
       "domainStrategy": "IPOnDemand",
