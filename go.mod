@@ -1,4 +1,4 @@
-module github.com/v2fly/domain-list-community
+module domain-list-direct
 
 go 1.22
 
