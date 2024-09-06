@@ -161,6 +161,9 @@ domains = [
   "zenadservices.net"	// yandex
 ];
 
+domains_more = [
+];
+
 function FindProxyForURL(url, host)
 {
   // Local URLs
@@ -169,7 +172,11 @@ function FindProxyForURL(url, host)
   // Specific domains
   for(var i=0; i<domains.length; i++)
   {
-    if(dnsDomainIs(host, domains[i])) return "DIRECT";
+    if(dnsDomainIs(host, "."+domains[i])) return "DIRECT";
+  }
+  for(var i=0; i<domains_more.length; i++)
+  {
+    if(dnsDomainIs(host, "."+domains_more[i])) return "DIRECT";
   }
 
   // Everything else
