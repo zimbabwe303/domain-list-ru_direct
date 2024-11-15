@@ -15,8 +15,18 @@ domains = [
   "рус",	// cyrillic
   "рф",	// cyrillic
   "сайт",	// cyrillic
-  "gosuslugi.ru",	// gosuslugi
-  "gu-st.ru",	// gosuslugi
+  "cbr.ru",	// gos
+  "edu.ru",	// gos
+  "emias.info",	// gos
+  "gosuslugi.ru",	// gos
+  "government.ru",	// gos
+  "gov.ru",	// gos
+  "gu-st.ru",	// gos
+  "mgfoms.ru",	// gos
+  "nalog.ru",	// gos
+  "imgsmail.ru",	// mailru
+  "mail.ru",	// mailru
+  "mycdn.me",	// mailru
   "aliexperss.com",	// misc
   "cloudinary.com",	// misc
   "debian.org",	// misc
@@ -25,6 +35,7 @@ domains = [
   "githubassets.com",	// misc
   "sourceforge.net",	// misc
   "ubuntu.com",	// misc
+  "ok.ru",	// ok
   "ru",	// ru
   "su",	// ru
   "com.ru",	// ru
@@ -49,114 +60,244 @@ domains = [
   "adygeya.ru",	// rugeo
   "adygeya.su",	// rugeo
   "aktyubinsk.su",	// rugeo
+  "altai.ru",	// rugeo
+  "amur.ru",	// rugeo
+  "arkhangelsk.ru",	// rugeo
   "arkhangelsk.su",	// rugeo
   "armenia.su",	// rugeo
   "ashgabad.su",	// rugeo
+  "astrakhan.ru",	// rugeo
   "azerbaijan.su",	// rugeo
   "balashov.su",	// rugeo
   "bashkiria.ru",	// rugeo
   "bashkiria.su",	// rugeo
+  "belgorod.ru",	// rugeo
   "bir.ru",	// rugeo
+  "bryansk.ru",	// rugeo
   "bryansk.su",	// rugeo
   "bukhara.su",	// rugeo
+  "buryatia.ru",	// rugeo
   "cbg.ru",	// rugeo
+  "chel.ru",	// rugeo
+  "chelyabinsk.ru",	// rugeo
   "chimkent.su",	// rugeo
+  "chita.ru",	// rugeo
+  "chukotka.ru",	// rugeo
+  "chuvashia.ru",	// rugeo
+  "crimea.ru",	// rugeo
   "dagestan.ru",	// rugeo
   "dagestan.su",	// rugeo
   "east-kazakhstan.su",	// rugeo
+  "ekburg.ru",	// rugeo
   "georgia.su",	// rugeo
   "grozny.ru",	// rugeo
   "grozny.su",	// rugeo
+  "i-ola.ru",	// rugeo
+  "irk.ru",	// rugeo
+  "irkutsk.ru",	// rugeo
+  "ivanovo.ru",	// rugeo
   "ivanovo.su",	// rugeo
+  "izhevsk.ru",	// rugeo
+  "jamal.ru",	// rugeo
   "jambyl.su",	// rugeo
+  "jar.ru",	// rugeo
   "kalmykia.ru",	// rugeo
   "kalmykia.su",	// rugeo
+  "kaluga.ru",	// rugeo
   "kaluga.su",	// rugeo
+  "kamchatka.ru",	// rugeo
   "karacol.su",	// rugeo
   "karaganda.su",	// rugeo
+  "karelia.ru",	// rugeo
   "karelia.su",	// rugeo
+  "kazan.ru",	// rugeo
+  "kchr.ru",	// rugeo
+  "kemerovo.ru",	// rugeo
+  "khabarovsk.ru",	// rugeo
+  "khakassia.ru",	// rugeo
   "khakassia.su",	// rugeo
+  "khv.ru",	// rugeo
+  "kirov.ru",	// rugeo
+  "koenig.ru",	// rugeo
+  "kostroma.ru",	// rugeo
   "krasnodar.su",	// rugeo
+  "krasnoyarsk.ru",	// rugeo
+  "kuban.ru",	// rugeo
+  "kurgan.ru",	// rugeo
   "kurgan.su",	// rugeo
+  "kursk.ru",	// rugeo
   "kustanai.ru",	// rugeo
   "kustanai.su",	// rugeo
   "lenug.su",	// rugeo
+  "lipetsk.ru",	// rugeo
+  "magadan.ru",	// rugeo
   "mangyshlak.su",	// rugeo
+  "mari-el.ru",	// rugeo
+  "mari.ru",	// rugeo
   "marine.ru",	// rugeo
   "mordovia.ru",	// rugeo
   "mordovia.su",	// rugeo
+  "mos.ru",	// rugeo
   "moscow",	// rugeo
+  "mosreg.ru",	// rugeo
   "msk.ru",	// rugeo
   "msk.su",	// rugeo
+  "murmansk.ru",	// rugeo
   "murmansk.su",	// rugeo
   "mytis.ru",	// rugeo
   "nalchik.ru",	// rugeo
   "nalchik.su",	// rugeo
   "navoi.su",	// rugeo
+  "nn.ru",	// rugeo
   "north-kazakhstan.su",	// rugeo
   "nov.ru",	// rugeo
   "nov.su",	// rugeo
+  "novosibirsk.ru",	// rugeo
+  "nsk.ru",	// rugeo
   "obninsk.su",	// rugeo
+  "omsk.ru",	// rugeo
+  "orb.ru",	// rugeo
+  "oryol.ru",	// rugeo
+  "penza.ru",	// rugeo
   "penza.su",	// rugeo
+  "perm.ru",	// rugeo
   "pokrovsk.su",	// rugeo
+  "psk",	// rugeo
+  "psk.ru",	// rugeo
+  "pskov.ru",	// rugeo
+  "ptz.ru",	// rugeo
   "pyatigorsk.ru",	// rugeo
+  "rkomi.ru",	// rugeo
+  "rnd.ru",	// rugeo
+  "ryazan.ru",	// rugeo
+  "sakhalin.ru",	// rugeo
+  "samara.ru",	// rugeo
+  "saratov.ru",	// rugeo
+  "sev.ru",	// rugeo
+  "sevastopol.ru",	// rugeo
+  "simbirsk.ru",	// rugeo
+  "smolensk.ru",	// rugeo
   "sochi.su",	// rugeo
   "spb.ru",	// rugeo
   "spb.su",	// rugeo
+  "stavropol.ru",	// rugeo
+  "stv.ru",	// rugeo
+  "surgut.ru",	// rugeo
+  "tambov.ru",	// rugeo
   "tashkent.su",	// rugeo
   "tatar",	// rugeo
+  "tatarstan.ru",	// rugeo
   "termez.su",	// rugeo
   "togliatti.su",	// rugeo
+  "tom.ru",	// rugeo
+  "tomsk.ru",	// rugeo
   "troitsk.su",	// rugeo
+  "tsaritsyn.ru",	// rugeo
   "tselinograd.su",	// rugeo
+  "tsk.ru",	// rugeo
+  "tula.ru",	// rugeo
   "tula.su",	// rugeo
+  "tuva.ru",	// rugeo
   "tuva.su",	// rugeo
+  "tver.ru",	// rugeo
+  "tyumen.ru",	// rugeo
+  "udm.ru",	// rugeo
+  "udmurtia.ru",	// rugeo
+  "ulan-ude.ru",	// rugeo
+  "vl.ru",	// rugeo
   "vladikavkaz.ru",	// rugeo
   "vladikavkaz.su",	// rugeo
   "vladimir.ru",	// rugeo
   "vladimir.su",	// rugeo
+  "vladivostok.ru",	// rugeo
+  "vlg.ru",	// rugeo
+  "volgograd.ru",	// rugeo
+  "vologda.ru",	// rugeo
   "vologda.su",	// rugeo
+  "voronezh.ru",	// rugeo
+  "vrn.ru",	// rugeo
+  "vyatka.ru",	// rugeo
+  "xn--80acgfbsl1azdqr.xn--p1ai",	// rugeo
+  "yakutia.ru",	// rugeo
+  "yamal.ru",	// rugeo
+  "yaroslavl.ru",	// rugeo
+  "yuzhno-sakhalinsk.ru",	// rugeo
   "mradx.net",	// vk
+  "mvk.com",	// vk
   "mycdn.me",	// vk
   "userapi.com",	// vk
-  "vk.com",	// vk
+  "vk-cdn.me",	// vk
+  "vk-cdn.net",	// vk
   "vk-combo.com",	// vk
+  "vk-portal.net",	// vk
+  "vk.cc",	// vk
+  "vk.com",	// vk
+  "vk.design",	// vk
+  "vk.link",	// vk
+  "vk.me",	// vk
+  "vk.ru",	// vk
+  "vkcache.com",	// vk
+  "vkgo.app",	// vk
+  "vklive.app",	// vk
+  "vkmessenger.app",	// vk
+  "vkmessenger.com",	// vk
   "vkombo.com",	// vk
   "vkontakte.com",	// vk
-  "vk-portal.net",	// vk
+  "vkontakte.ru",	// vk
   "vkuser.net",	// vk
+  "vkuseraudio.com",	// vk
+  "vkuserlive.net",	// vk
+  "vkuservideo.com",	// vk
+  "vkuservideo.net",	// vk
   "dzen.ru",	// yandex
   "metrika.yandex",	// yandex
   "radar.yandex",	// yandex
+  "xn--d1acpjx3f.xn--p1ai",	// yandex
+  "ya.ru",	// yandex
   "yaconnect.ru",	// yandex
   "yandex",	// yandex
+  "yandex-team.ru",	// yandex
   "yandex.aero",	// yandex
+  "yandex.az",	// yandex
+  "yandex.by",	// yandex
   "yandex.cloud",	// yandex
-  "yandexcloud.net",	// yandex
+  "yandex.co.il",	// yandex
+  "yandex.com",	// yandex
+  "yandex.com.am",	// yandex
+  "yandex.com.ge",	// yandex
   "yandex.com.ru",	// yandex
   "yandex.com.tr",	// yandex
-  "yandexdatafactory.com",	// yandex
-  "yandexdatafactory.ru",	// yandex
-  "yandexdataschool.ru",	// yandex
+  "yandex.com.ua",	// yandex
+  "yandex.de",	// yandex
   "yandex.ee",	// yandex
+  "yandex.eu",	// yandex
+  "yandex.fi",	// yandex
+  "yandex.fr",	// yandex
   "yandex.jobs",	// yandex
+  "yandex.kg",	// yandex
   "yandex.kz",	// yandex
+  "yandex.lt",	// yandex
   "yandex.lv",	// yandex
-  "yandexlyceum.ru",	// yandex
   "yandex.market",	// yandex
   "yandex.md",	// yandex
   "yandex.net",	// yandex
-  "yandex.net",	// yandex
   "yandex.org",	// yandex
-  "yandex.ru",	// yandex
+  "yandex.pl",	// yandex
   "yandex.ru",	// yandex
   "yandex.st",	// yandex
+  "yandex.sx",	// yandex
   "yandex.taxi",	// yandex
-  "yandex-team.ru",	// yandex
   "yandex.tj",	// yandex
+  "yandex.tm",	// yandex
   "yandex.travel",	// yandex
+  "yandex.ua",	// yandex
+  "yandex.uz",	// yandex
   "yandex.video",	// yandex
-  "ya.ru",	// yandex
+  "yandexcloud.net",	// yandex
+  "yandexdatafactory.com",	// yandex
+  "yandexdatafactory.ru",	// yandex
+  "yandexdataschool.ru",	// yandex
+  "yandexlyceum.ru",	// yandex
   "yastatic.net",	// yandex
   "zenadservices.net"	// yandex
 ];

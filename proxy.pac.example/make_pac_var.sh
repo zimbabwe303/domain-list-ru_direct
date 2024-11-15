@@ -14,7 +14,7 @@ do
   ln=1
   while read -r domain
   do
-    if [ $domain ]; then
+    if [ $domain ] && [ ${domain%:*} = $domain ] ; then
       fbn=$(basename "$f")
       if [ $fn -eq $files_cnt ] && [ $ln -eq $lines_cnt ]; then
         printf "  \"$domain\"\t// $fbn\n" >> "$pf"
