@@ -39,8 +39,18 @@ Command line: `geo convert site -i v2ray -o sing direct.dat`
 
 Rename the resulting file to `geosite.db`, put it into the sing-box/nekoray executable directory and add the rules (e.g. geosite:all).
 
-*Note: the latest versions of sing-box now recommend using their own `.srs` [binary rule-set format](https://sing-box.sagernet.org/configuration/rule-set/source-format/).*
+The latest versions of sing-box now recommend using their own `.srs` [binary rule-set format](https://sing-box.sagernet.org/configuration/rule-set/source-format/) which is compiled from the human-readable .json. To convert .db to .json use the following commands:
 
-## Releases
+```
+sing-box geosite export <category>
+sing-box geoip export <category>
+```
 
-[Releases](https://github.com/zimbabwe303/domain-list-ru_direct/releases) include all the files already compiled (the executables are for Linux amd64).
+Then you can convert .json to .srs (you can use .json directly but it is much slower than .srs):
+
+`sing-box rule-set compile <file.json>`
+
+## Pre-compiled files
+
+Pre-compiled files (including the [v2fly](https://github.com/v2fly/geoip) geoip.dat) can be found in the "[compiled](https://github.com/zimbabwe303/domain-list-ru_direct/compiled)" directory. Pre-compiled files for sing-box are in the "[compiled/sing-box](https://github.com/zimbabwe303/domain-list-ru_direct/compiled/sing-box)" directory.
+

@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "rules": [
+    {
+      "domain": [
+        "cbr.ru",
+        "edu.ru",
+        "emias.info",
+        "gosuslugi.ru",
+        "government.ru",
+        "gov.ru",
+        "gu-st.ru",
+        "mgfoms.ru",
+        "nalog.ru"
+      ],
+      "domain_suffix": [
+        ".cbr.ru",
+        ".edu.ru",
+        ".emias.info",
+        ".gosuslugi.ru",
+        ".government.ru",
+        ".gov.ru",
+        ".gu-st.ru",
+        ".mgfoms.ru",
+        ".nalog.ru"
+      ]
+    }
+  ]
+}
