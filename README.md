@@ -52,5 +52,5 @@ Then you can convert .json to .srs (you can use .json directly but it is much sl
 
 ## Pre-compiled files
 
-Pre-compiled files (including the [v2fly](https://github.com/v2fly/geoip) geoip.dat) can be found in the "[compiled](https://github.com/zimbabwe303/domain-list-ru_direct/compiled)" directory. Pre-compiled files for sing-box are in the "[compiled/sing-box](https://github.com/zimbabwe303/domain-list-ru_direct/compiled/sing-box)" directory.
+Pre-compiled files (including the [v2fly](https://github.com/v2fly/geoip) geoip.dat) can be found in the "[compiled](https://github.com/zimbabwe303/domain-list-ru_direct/tree/master/compiled)" directory. Pre-compiled files for sing-box are in the "[compiled/sing-box](https://github.com/zimbabwe303/domain-list-ru_direct/tree/master/compiled/sing-box)" directory.
 
