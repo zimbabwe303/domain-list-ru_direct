@@ -1,0 +1,158 @@
+{
+  "log": {
+    "disabled": false,
+    "level": "warning"
+  },
+  "inbounds": [
+    {
+      "type": "socks",
+      "tag": "socks-in",
+      "listen": "127.0.0.1",
+      "listen_port": 10909,
+      "sniff": true
+    }
+  ],
+  "outbounds": [
+    {
+      "type": "shadowsocks",
+      "tag": "shadowsocks-out",
+      "server": "",
+      "server_port": 9100,
+      "method": "2022-blake3-chacha20-poly1305",
+      "password": "",
+      "multiplex": {
+        "enabled": true,
+        "protocol": "h2mux",
+        "max_connections": 4,
+        "min_streams": 4,
+        "padding": true
+      }
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    }
+  ],
+  "route": {
+    "rules": [
+      {
+        "ip_is_private": true,
+        "outbound": "direct"
+      },
+      {
+        "rule_set": [
+          "geosite-cyrillic",
+          "geosite-gos",
+          "geosite-mailru",
+          "geosite-ok",
+          "geosite-ruext",
+          "geosite-rugeo",
+          "geosite-ru",
+          "geosite-vk",
+          "geosite-yandex",
+          "geoip-ru",
+          "misc",
+          "personal"
+        ],
+        "outbound": "direct"
+      }
+    ],
+    "rule_set": [
+      {
+        "tag": "geosite-ru",
+        "type": "local",
+        "format": "binary",
+        "path": "geosite-ru.srs"
+      },
+      {
+        "tag": "geosite-rugeo",
+        "type": "local",
+        "format": "binary",
+        "path": "geosite-rugeo.srs"
+      },
+      {
+        "tag": "geosite-yandex",
+        "type": "local",
+        "format": "binary",
+        "path": "geosite-yandex.srs"
+      },
+      {
+        "tag": "geosite-vk",
+        "type": "local",
+        "format": "binary",
+        "path": "geosite-vk.srs"
+      },
+      {
+        "tag": "geosite-ruext",
+        "type": "local",
+        "format": "binary",
+        "path": "geosite-ruext.srs"
+      },
+      {
+        "tag": "geosite-gos",
+        "type": "local",
+        "format": "binary",
+        "path": "geosite-gos.srs"
+      },
+      {
+        "tag": "geosite-cyrillic",
+        "type": "local",
+        "format": "binary",
+        "path": "geosite-cyrillic.srs"
+      },
+      {
+        "tag": "geosite-mailru",
+        "type": "local",
+        "format": "binary",
+        "path": "geosite-mailru.srs"
+      },
+      {
+        "tag": "geosite-ok",
+        "type": "local",
+        "format": "binary",
+        "path": "geosite-ok.srs"
+      },
+      {
+        "tag": "geoip-ru",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://raw.githubusercontent.com/SagerNet/sing-geoip/rule-set/geoip-ru.srs",
+        "download_detour": "shadowsocks-out"
+      },
+      {
+        "tag": "misc",
+        "type": "inline",
+        "rules": [
+          {
+            "domain": "aliexperss.com",
+            "domain": "cloudinary.com",
+            "domain": "debian.org",
+            "domain": "fsdn.com",
+            "domain": "github.com",
+            "domain": "githubassets.com",
+            "domain": "sourceforge.net",
+            "domain": "ubuntu.com",
+            "domain_suffix": ".aliexperss.com",
+            "domain_suffix": ".cloudinary.com",
+            "domain_suffix": ".debian.org",
+            "domain_suffix": ".fsdn.com",
+            "domain_suffix": ".github.com",
+            "domain_suffix": ".githubassets.com",
+            "domain_suffix": ".sourceforge.net",
+            "domain_suffix": ".ubuntu.com"
+          }
+        ]
+      },
+      {
+        "tag": "personal",
+        "type": "inline",
+        "rules": [
+          {
+            "domain": "",
+            "domain_suffix": ""
+          }
+        ]
+      }
+    ]
+  }
+}
